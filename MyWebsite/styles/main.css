@@ -217,5 +217,96 @@ footer p{
     }
 }
 
+/*My Projects Page*/
 
+.projects{
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 75vh;
+}
 
+.column{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.project-col{
+    flex-basis: 31%;
+    background: rgb(209, 204, 204);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.blog-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*BLOG PAGE*/
+
+.blog-content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.blog-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-right{
+    flex-basis: 50%;
+    margin-left: 20px;
+}
+
+.blog-right h3{
+    color: #222;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.blog-left{
+    flex-basis: 50%;
+    margin-right: 20px;
+}
+
+.blog-left h3{
+    background: #666;
+    color: white;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.blog-left div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#444;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.blog-left a{
+    margin-top: 20px;
+}
+
+@media(max-width: 1200px){
+    .blog-row{
+        flex-direction: column;
+    }
+
+    .blog-right h3{
+        margin-top: 30px;
+    }
+}
