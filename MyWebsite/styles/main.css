@@ -224,7 +224,7 @@ footer p{
     margin: auto;
     padding-top: 40px;
     padding-bottom: 40px;
-    height: 75vh;
+    height: 65vh;
 }
 
 .column{
@@ -241,6 +241,15 @@ footer p{
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
+}
+
+.project-col a{
+    color: rgb(10, 17, 121);
+    text-decoration: none;
+}
+
+.project-col a:hover{
+    text-decoration: underline;
 }
 
 .blog-btn{
@@ -309,4 +318,41 @@ footer p{
     .blog-right h3{
         margin-top: 30px;
     }
+}
+
+/*Contact Page*/
+
+.contact{
+    width: 80%;
+    height: 65vh;
+    margin: auto;
+}
+
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-col div .fa{
+    font-size: 28px;
+    color: #666;
+    margin: 10px;
+}
+
+.contact-col div p{
+    font-size: 14px;
+}
+
+.contact-top{
+    text-align: center;
+    justify-content: space-between;
+    color:#222;
+    padding: 20px;
+    box-sizing: border-box;
 }
