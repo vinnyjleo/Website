@@ -39,7 +39,7 @@
       <section class="contact">
           <div class="contact-top">
               <h3>Thank you for visiting my website!</h3>
-              <p>If you liked the website connect and message me on LinkedIn</p>
+              <p>If you liked the website send me a message and connect with me on LinkedIn</p>
           </div>
           <div class="row">
               <div class="contact-col">
@@ -62,6 +62,17 @@
                         <p>www.linkedin.com/in/vincent-leo-9717661a3</p>
                     </span>
                   </div>
+              </div>
+              <div class="contact-col">
+
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Email Address" required>
+                    <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="project-btn gray-btn">Send Message</button>
+                </form>
+
               </div>
           </div>
       </section>

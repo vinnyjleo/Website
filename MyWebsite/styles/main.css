@@ -70,6 +70,10 @@ nav img{
 }
 
 .text-box h1{
+    font-size: 65px;
+}
+
+.text-box h2{
     font-size: 62px;
 }
 
@@ -103,6 +107,10 @@ nav .fa{
 
 @media(max-width: 700px){
     .text-box h1{
+        font-size: 22px;
+    }
+
+    .text-box h2{
         font-size: 20px;
     }
 
@@ -324,7 +332,6 @@ footer p{
 
 .contact{
     width: 80%;
-    height: 65vh;
     margin: auto;
 }
 
@@ -354,5 +361,14 @@ footer p{
     justify-content: space-between;
     color:#222;
     padding: 20px;
+    box-sizing: border-box;
+}
+
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
     box-sizing: border-box;
 }
